@@ -1,0 +1,288 @@
+/*==========================================
+                    Pads
+==========================================*/
+
+@media screen and (max-width: 992px) {
+  .global-container {
+    width: 95%;
+  }
+
+  /* Filters Bar */
+  .filter-wrapper {
+    margin: 0 10px 20px;
+  }
+
+  /* Main Section 1 */
+  .main-section-1 {
+    flex-direction: column-reverse;
+  }
+
+  /* Colon 1 : Offers */
+  .offers-wrapper {
+    width: 100%;
+  }
+
+  /* Colon 2 : Populars */
+  .populars-wrapper {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .populars-cards-wrapper {
+    flex-direction: row;
+  }
+
+  .populars-cards {
+    width: 32%;
+  }
+
+  /* Main Section 2 */
+
+  .activities-wrapper {
+    flex-direction: column;
+  }
+
+  .activities-sub-wrapper-1,
+  .activities-sub-wrapper-2 {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .activities-cards-sm-wrapper {
+    width: 50%;
+  }
+}
+
+/*==========================================
+                    Mobile
+==========================================*/
+
+@media screen and (max-width: 768px) {
+  .global-container {
+    width: 100%;
+  }
+
+  /*========================
+      Header mobile
+  ========================*/
+
+  header {
+    flex-direction: column;
+  }
+
+  .logo-container {
+    width: 45%;
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  .logo-container img {
+    position: relative;
+    left: 35px;
+  }
+
+  header nav {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  header li {
+    width: 100%;
+    text-align: center;
+  }
+
+  header a {
+    display: inline-block;
+    width: 100%;
+  }
+
+  /*========================
+       Search Bar Mobile
+  ========================*/
+
+  .search-bar-container {
+    width: 93%;
+    margin: 0 auto 30px;
+  }
+
+  .main-title {
+    margin-top: 20px;
+  }
+
+  .form-wrapper {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .form-input {
+    position: absolute;
+    right: 0px;
+    left: 50px;
+  }
+
+  .form-input input {
+    width: calc(100% - 45px);
+  }
+
+  .form-wrapper button {
+    border-radius: 15px;
+    width: 55px;
+  }
+
+  .form-wrapper button span {
+    display: none;
+  }
+
+  .form-wrapper button i {
+    display: block;
+  }
+
+  /*--- Filters Bar ---*/
+  .filters-list {
+    padding: 15px 0;
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .filters-list h2 {
+    align-self: flex-start;
+    margin-right: 0px;
+  }
+
+  .filter-wrapper {
+    border-radius: 30px;
+    margin: 10px 10px 10px 0;
+    min-height: 45px;
+  }
+
+  /*=======================
+    Main Sections Mobile
+  ========================*/
+
+  /* Colon 1 : Offers */
+  .offers-wrapper {
+    background-color: var(--light);
+    width: 100%;
+  }
+
+  .offers-wrapper h2,
+  .main-section-2 h2 {
+    width: 93%;
+    margin: 0 auto 20px;
+  }
+
+  .offers-line-1,
+  .offers-line-2 {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .offers-cards {
+    width: 93%;
+    margin: 10px auto;
+  }
+
+  .offers-cards-infos {
+    padding: 3% 5%;
+  }
+
+  .display-more {
+    width: 93%;
+    margin: 30px auto 0;
+  }
+
+  /* Colon 2 : Populars */
+  .populars-wrapper {
+    border-radius: 0;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .populars-wrapper h2 {
+    margin: 30px auto 20px;
+    width: 93%;
+  }
+
+  .populars-cards-wrapper {
+    flex-direction: column;
+  }
+
+  .populars-cards {
+    width: 93%;
+    margin: 7px auto;
+  }
+
+  .populars-cards-infos {
+    padding: 5% 3%;
+  }
+
+  .populars-cards:last-child {
+    margin-bottom: 30px;
+  }
+
+  /* Main Section 2 : Activities */
+  .main-section-2 {
+    margin-bottom: 40px;
+  }
+
+  .activities-wrapper {
+    margin: 0 auto;
+    width: 93%;
+  }
+
+  .activities-sub-wrapper-1,
+  .activities-sub-wrapper-2 {
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+  }
+
+  .activities-cards-sm-wrapper {
+    width: 100%;
+  }
+
+  .activities-cards-lg {
+    height: 220px;
+    width: 100%;
+  }
+
+  .activities-cards-md {
+    height: 220px;
+  }
+
+  .activities-cards-xs {
+    height: 220px;
+  }
+
+  .acti-cards {
+    margin: 12px 0;
+  }
+
+  /*====================
+       Footer Mobile
+  ====================*/
+
+  footer {
+    min-height: auto;
+  }
+
+  .footer-lists {
+    flex-direction: column;
+    margin: 40px auto;
+    width: 93%;
+  }
+
+  .footer-lists nav:nth-child(2) {
+    margin: 15px 0;
+  }
+
+  /*====================
+       Hover effects 
+  ====================*/
+
+  header a:hover {
+    box-shadow: 0 4px 0 var(--deepBlue);
+  }
+  
+}
